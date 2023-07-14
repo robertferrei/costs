@@ -1,4 +1,6 @@
 import Inpuut from "../../input";
+import Select from "../../Select";
+import SubmitButton from "../../submitButton";
 import { Forme } from "./styles";
 
 function Formulario() {
@@ -7,26 +9,21 @@ function Formulario() {
       <Forme>
         <Inpuut
           type="text"
-          text="nome do Projeto"
+          text="Nome do Projeto"
           name="name"
-          placeholder="insira o nome do projeto"
+          placeholder="Insira o nome do projeto"
         />
             <Inpuut
           type="number"
           text="Orçamento"
           name="budget"
-          placeholder="insira o Orçamento total"
+          placeholder="Insira o Orçamento total"
        
         />
         
-        <div>
-          <select name="category_id"></select>
-          <option disabled>selecione a categoria</option>
-        </div>
+       <Select  name="category id" text="Selecione a categoria"/>
 
-        <div>
-          <input type="submit" value="criar projeto"></input>
-        </div>
+       <SubmitButton  text="criar projeto"/>
       </Forme>
     </>
   );
