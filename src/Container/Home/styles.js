@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 
-export const Container=styled.div`
+export const Container = styled.div`
 
        width:1200px;
        display:flex;
@@ -30,6 +30,7 @@ section{
        p{
               margin-bottom: 1.5em;
               color: #7b7b7b;
+              font-size:20px;
        }
        img{
               width: 350px;
