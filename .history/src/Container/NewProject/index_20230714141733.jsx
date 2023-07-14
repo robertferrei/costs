@@ -12,7 +12,7 @@ function NewProject() {
         <div>
       <h1>Criar projeto</h1>
       <p>Crie seu projeto para depois adicionar os Serviços</p>
-      <Formulario btnText="Criar projeto"/>
+      <Formulario/>
       </div>
       
       </Container>

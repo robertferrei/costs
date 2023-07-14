@@ -3,7 +3,7 @@ import Select from "../../Select";
 import SubmitButton from "../../submitButton";
 import { Forme } from "./styles";
 
-function Formulario({btnText}) {
+function Formulario({ btnText}) {
   return (
     <>
       <Forme>
@@ -23,7 +23,7 @@ function Formulario({btnText}) {
         
        <Select  name="category id" text="Selecione a categoria"/>
 
-       <SubmitButton  text={btnText}/>
+       <SubmitButton  text="criar projeto"/>
       </Forme>
     </>
   );

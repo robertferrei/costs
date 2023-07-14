@@ -3,7 +3,7 @@ import Select from "../../Select";
 import SubmitButton from "../../submitButton";
 import { Forme } from "./styles";
 
-function Formulario({btnText}) {
+function Formulario({ btnText}) {
   return (
     <>
       <Forme>
