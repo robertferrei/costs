@@ -1,12 +1,15 @@
+import Footer from "./components/footer";
+import { Container } from "./styles";
+
  
   
 
 function App() {
   return ( 
       
-        <div>
-       
-        </div>
+        <Container>
+          <Footer/>
+          </Container>
          
     
     

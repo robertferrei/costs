@@ -1,13 +1,14 @@
 import { Container } from "./styles";
 
-function NewProject() {
+function Projetos() {
   return (
     <>
+     
       <Container>
-        <h1>Newproject</h1>
+        <h1>projetos</h1>
       </Container>
     </>
   );
 }
 
-export default NewProject;
+export default Projetos;

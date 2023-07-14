@@ -1,7 +1,11 @@
+import { Container } from "./styles"
+
 function Contact(){
     return(
         <>
-        Contact
+        <Container>
+        <h1>Contact</h1>
+        </Container>
         </>
     )
 }
