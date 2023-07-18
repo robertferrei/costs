@@ -8,6 +8,10 @@ function Select({  text, name, handleOnchange,options, value }) {
     <select name={name} id ={name}>
             <option >Selecione uma opção</option>
 
+            
+            {options.map((option) =>(
+              <option value={option.id} key={option.id}>{option.name}</option>
+            ))}
     </select>
       </Container>
     </>
