@@ -1,25 +1,122 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 11
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 12
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 13
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 14
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 15
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 16
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 17
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 18
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 19
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 20
+    }
+  ],
   "categories": [
     {
       "id": 1,
       "name": "Infra"
     },
     {
-        "id": 2,
-        "name": "Desenvolvimento"
-      },
-    
-      {
-        "id": 3,
-        "name": "Design"
-      },
-    
-      {
-        "id": 4,
-        "name": "planejamento"
-      }
-      
-    
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "planejamento"
+    }
   ]
 }

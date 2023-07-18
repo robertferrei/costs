@@ -5,8 +5,9 @@ import Select from "../../Select";
 import SubmitButton from "../../submitButton";
 import { Forme } from "./styles";
 
-function Formulario({ btnText }) {
+function Formulario({handleSubmit, btnText,projectData }) {
   const [categories, setCategories] = useState([]);
+  const[project,SetProjects]= useState(projectData || {})
   useEffect(() => {
     fetch(" http://localhost:5000/categories", {
       method: "GET",
@@ -20,26 +21,54 @@ function Formulario({ btnText }) {
       })
       .catch((err) => console.log(err));
   }, []);
+
+  const submit =(e) =>{
+    e.preventDefault()
+    //console.log(project)
+    handleSubmit(project)
+ 
+     
+  }
+  function handleChange(e) {
+    SetProjects({ ...project, [e.target.name]: e.target.value })
+  
+  }
+
+  function handleCategory(e) {
+    SetProjects({
+      ...project,
+      category: {
+        id: e.target.value,
+        name: e.target.options[e.target.selectedIndex].text,
+      },
+    })
+  }
+ 
+
   return (
     <>
-      <Forme>
+      <Forme onSubmit={submit}>
         <Inpuut
           type="text"
           text="Nome do Projeto"
           name="name"
           placeholder="Insira o nome do projeto"
+          handleOnChange={handleChange}
         />
         <Inpuut
           type="number"
           text="Orçamento"
           name="budget"
           placeholder="Insira o Orçamento total"
+          handleOnChange={handleChange}
         />
 
         <Select
           name="category id"
           text="Selecione a categoria"
           options={categories}
+          handleOnChange={handleCategory}
+   
         />
 
         <SubmitButton text={btnText} />
